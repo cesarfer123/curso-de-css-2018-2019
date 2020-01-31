@@ -1,0 +1,17 @@
+.inline{
+    background: springgreen;
+    /* margin-right: 20px; */
+    /* padding-right: 20px; */
+    display: inline-block;
+    margin-bottom: 30px;
+    height: 300px;
+    display: none;
+
+}
+
+.block{
+
+    background: rgb(166, 104, 246);
+    /* margin-top: 15em; */
+    margin: 0;
+}

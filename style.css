@@ -1,0 +1,80 @@
+/* selector universal */
+*{
+    /* color: red; */
+}
+/* Selectores por atributos */
+
+/* seleciona los elementos que tienen ese atributo */
+[href]{
+    color:blue;
+}
+
+/* seleciona los elementos que tienen ese atributo y valor */
+
+[href="#"]{
+    color:yellow;
+}
+
+/* seleciona los elementos que tienen ese atributo al menos ese valor una vez */
+[class~="verde"]{
+    color:pink;
+}
+
+/* seleciona los elementos que tienen ese atributo al menos ese valor una vez */
+[class|="verde"]{
+    color: springgreen;
+}
+
+/* Selecciona los elementos que tiene ese atributo y empiezan con ese valor */
+
+[class^="rojo"]{
+    color: tomato;
+}
+
+/* Selecciona los elementos que tiene ese atributo y terminan con ese valor */
+
+[class$="rojo"]{
+    color: slategrey;
+}
+
+/* Selecciona los elementos que tiene ese atributo y contengan ese valor */
+
+[class*="rojo"]{
+    color: violet;
+}
+
+/* Selectores combinadores  */
+
+/* Selectores de hermanos adyacentes */
+
+/* selecciona la hermano que esta justo por debajo de el. el estilo se aplico al hermano inferior */
+
+h1 + h2{
+    color: red;
+}
+
+/* seleccion de hermano general */
+
+/* selecciona todos los hermanos que estan por debajo de el. el estilo se aplica a todos los hermanos */
+
+h1 ~ h3{
+    color: greenyellow;
+}
+
+/* selectores descendientes */
+/* selecciona todos los hijos . el estilo se aplica a todos los hijos */
+
+p span{
+    background-color: indigo;
+}
+
+/* selector de hijo directo  */
+
+/* selecciona todos los hijos que sean directos, es decir que no estan dentro de otra etiqueta , el estilo se aplica a todos los hijos  */
+
+p > span{
+    color: lemonchiffon;
+}   
+
+
+

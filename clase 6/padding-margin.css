@@ -1,0 +1,38 @@
+h1{
+    background-color: hotpink;
+    height: 100px;
+    width: 100px;
+}
+
+h2{
+    background: lawngreen;
+    width: 50px;
+
+}
+
+a{
+
+    width: 300px;
+    height: 300px;
+    background-color: lightgrey;
+}
+
+
+.box-1{
+
+    width: 200px;
+    height: 200px;
+    background-color: lightskyblue; 
+    /* padding: 20px; */
+    /* border: 2px solid black; sus dimensiones cuentan para el tamaño total */
+    margin: 1em 2em 3em 3em;
+    /* outline: 10px solid blue; */ /*sus dimensiones no cuentan para el tamaño total*/
+}
+
+.box-2{
+
+    width: 200px;
+    height: 200px;
+    background-color: rgb(248, 250, 135);
+    padding: 1em 2em 3em 4em;
+}

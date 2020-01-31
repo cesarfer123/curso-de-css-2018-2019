@@ -1,0 +1,41 @@
+
+/* HERENCIA */
+/*p{
+    color: green;
+    font-size: 1.5em;
+}
+
+a{
+    coge el color del elemento padre 
+    color: inherit; 
+
+}*/
+
+/*
+etiqueta -> 1
+clases y pseudoclases -> 10
+id -> 100
+estilos en linea ->1000
+!important->gana a todo
+important   ->  especificidad   ->  cascada
+*/
+
+#parrafo{
+    color: blue;
+}
+.parrafo{
+    color: red;
+}
+
+a{
+    color: inherit;
+}
+.parrafo-2{
+
+    color: lawngreen !important;
+}
+
+p{
+    color: green!important;
+}
+
